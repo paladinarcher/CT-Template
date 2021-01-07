@@ -1,62 +1,6 @@
 # For initial project set up click **[here](SET-UP.md)**. Delete this line afterwards
 
-* logo(optional) goes here
-<h1 align="center">
-	<img
-		width="300"
-		alt=""
-		src="https://github.com/paladinarcher/padawan/blob/master/Logo%20Pack/PNG/redcirclesm300x300.png"
-	> 
-</h1>
 
-<h3 align="center">
-	* Short Description goes here
-</h3>
-
-<p align="center">
-	* links goes here
-	<strong>
-		<a href="">Website</a>
-		•
-		<a href="">Docs</a>
-		•
-		<a href="">Demo</a>
-	</strong>
-</p>
-<p align="center">
-	*Badges goes here
-	<a href="">
-		<img
-			alt=""
-			src=""
-		>
-	</a>
-	<a href="">
-		<img
-			alt=""
-			src=""
-		>
-	</a>
-	<a href="">
-		<img
-			alt=""
-			src=""
-		>
-	</a>
-	<a href="">
-		<img
-			alt=""
-			src=""
-		>
-	</a>
-</p>
-
-<p align="center">
-	* Image goes here
-	<img src="https://github.com/paladinarcher/padawan/blob/master/Logo%20Pack/PNG/redcirclesm300x300.png" 
-	     width="550"
-	>
-</p>
 
 ## Overview
  * overview of project goes here example...  
@@ -67,11 +11,19 @@
 	- **Synchronized experience.** Always resume where you left off no matter what device.
 	
 
-## Installation and usage  
-* Installation and usage goes here example...
-	The Lounge requires latest [Node.js](https://nodejs.org/) LTS version or more recent.
-	[Yarn package manager](https://yarnpkg.com/) is also recommended.  
-	If you want to install with npm, `--unsafe-perm` is required for a correct install.
+## Installation and usage
+### Setup
+```sh
+npm install
+```
+### Mocha Tests
+```sh
+npm test
+```
+### Nightwatch Tests
+```sh
+npx nightwatch tests/nightwatch/example.js
+```
 
 ### Running stable releases  
 
