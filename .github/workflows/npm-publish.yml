@@ -21,8 +21,8 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - run: npm test
-      - run: nightwatch tests/nightwatch
+      - run: npx mocha
+      - run: npx nightwatch
 
   # publish-npm:
   #   needs: build
