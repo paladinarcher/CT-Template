@@ -4,7 +4,10 @@
   "description": "* logo(optional) goes here <h1 align=\"center\"> \t<img \t\twidth=\"300\" \t\talt=\"\" \t\tsrc=\"https://github.com/paladinarcher/padawan/blob/master/Logo%20Pack/PNG/redcirclesm300x300.png\" \t>  </h1>",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "chimp-watch": "chimp --ddp=http://localhost:3000 --watch --mocha --path=tests",
+    "chimp-test": "chimp --mocha --path=tests",
+    "test": "mocha",
+    "test-e2e": "nightwatch"
   },
   "repository": {
     "type": "git",
