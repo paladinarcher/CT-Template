@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="3">
+
+  <testsuite name="mocha.example.test"
+    errors="0" failures="0" hostname="" id="" package="mocha" skipped="0"
+    tests="3" time="0.001000" timestamp="">
+  
+    <testcase name="should return -1 when the value is not present" classname="mocha.example.test" time="0.000" assertions="0">
+    </testcase>
+  
+    <testcase name="should..." classname="mocha.example.test" time="0.000" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+        NoSuchElementError: An error occurred while running .click() command on &lt;a[text=About]&gt;: 
+   {&#34;value&#34;:[]}
+   
+  NoSuchElementError: An error occurred while running .getText() command on &lt;h1&gt;: 
+   {&#34;value&#34;:[]}
+   
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -22,7 +22,7 @@ jobs:
           node-version: 12
       - run: npm ci
       - run: npm test
-      - run: nightwatch tests/nightwatch
+      - run: npm test-e2e
 
   # publish-npm:
   #   needs: build
