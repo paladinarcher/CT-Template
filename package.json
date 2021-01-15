@@ -4,8 +4,8 @@
   "description": "Continuous Testing template repo. Template is ready to go using mocha and nightwatch tests",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "test-e2e": "nightwatch"
+    "test-unit": "mocha test/unit",
+    "test-e2e": "nightwatch --config nightwatch.conf.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +25,7 @@
     "chromedriver": "^87.0.5",
     "geckodriver": "^1.21.1",
     "mocha": "^8.2.1",
-    "nightwatch": "^1.5.1"
+    "nightwatch": "^1.5.1",
+    "selenium-server": "^3.141.59"
   }
 }
